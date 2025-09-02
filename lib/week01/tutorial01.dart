@@ -3,7 +3,11 @@ import 'pakage:flutter/material.dart';
 void main(){
   runApp(
     const Center(
-      chi
+      child: Text(
+        'Hello, World!',
+        textDirection: TextDirection.ltr,
+        style: 
+      )
     )
   )
 }
